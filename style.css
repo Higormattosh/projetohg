@@ -4,6 +4,7 @@ body, html {
     height: 100%;
     background: #fff;
     overflow: auto;
+    background: #f7f7f7;
 }
 header{
     display: grid;
@@ -331,7 +332,8 @@ section {
     display: grid;
     grid-template-areas: 
     "a a"
-    "b b";
+    "b b"
+    "c c";
 }
 .moc{
     grid-area: a;
@@ -357,5 +359,21 @@ section {
 }
 .mySlides{
     width: 100%;
-    display: none;
+}
+.cole{
+    grid-area: c;
+    text-align: start;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.New{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.shi{
+    padding-top: 0.3rem;
+    color: #7a7474;
+    font-size: 1rem;
 }
