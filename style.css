@@ -377,3 +377,81 @@ section {
     color: #7a7474;
     font-size: 1rem;
 }
+
+/*footer*/
+/*footer*/
+/*footer*/
+/*footer*/
+/*footer*/
+
+footer{
+    display: grid;
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d";
+    background-color: #000;
+}
+.footer-logo{
+    grid-area: a;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.foo {
+height: 8rem;
+}
+.sup{
+    grid-area: b;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    padding-left: 1rem;
+}
+.suporte{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 0.6rem;
+}
+.suport{
+    font-family: 'Roboto', sans-serif;
+    color: #7a7474;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0.4rem;
+}
+.rede{
+    grid-area: c;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    font-weight: 500;
+}
+.social{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.logo-insta{
+    grid-area: d;
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.logo-i{
+    height: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+/*footer*/
+/*footer*/
+/*footer*/
+/*footer*/
+/*footer*/
