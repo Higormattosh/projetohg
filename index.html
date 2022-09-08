@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylereset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>Document</title>
+    <title>HG</title>
 </head>
 <body>
         <header>
@@ -44,15 +45,81 @@
         <div class="moc">
             <h1>Mochup</h1>
         </div>
-        <div class="carrossel">
-                <img class="mySlides" src="Logo_Mockup_jpg.jpg" >
-        </div>
+
+        <input type="radio" id="image1" name="image" checked>
+<input type="radio" id="image2" name="image">
+<input type="radio" id="image3" name="image">
+
+<div class="container">
+  <div class="featured-wrapper">
+    <ul class="featured-list">
+      <li>
+        <figure>
+          <img src="Logo_Mockup_jpg.jpg" alt="" class="fts">
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="logo_mockup_2.jpg" alt="" class="fts">
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="Logo_Mockup_3.jpg" alt="" class="fts">
+        </figure>
+      </li>
+    </ul>
+    <ul class="arrows">
+      <li>
+        <label for="image1"></label>
+      </li>
+      <li>
+        <label for="image2"></label>
+      </li>
+      <li>
+        <label for="image3"></label>
+      </li>
+    </ul>
+    <ul class="dots">
+      <li>
+        <label for="image1"></label>
+      </li>
+      <li>
+        <label for="image2"></label>
+      </li>
+      <li>
+        <label for="image3"></label>
+      </li>
+    </ul>
+  </div>
+  <ul class="thumb-list">
+    <li>
+      <label for="image1">
+        <img src="Logo_Mockup_jpg.jpg" alt="" class="fts">
+        <span class="outer">
+        </span>
+      </label>
+    </li>
+    <li>
+      <label for="image2">
+        <img src="logo_mockup_2.jpg" alt="" class="fts">
+        <span class="outer">
+        </span>
+      </label>
+    </li>
+    <li>
+      <label for="image3">
+        <img src="Logo_Mockup_3.jpg" alt="" class="fts">
+        <span class="outer">
+        </span>
+      </label>
+    </li>
+  </ul>
+</div>
+
         <div class="cole">
             <h1 class="New">New Collection</h1>
             <p class="shi">Shirts</p>
-        </div>
-        <div class="carrossel">
-            <img class="mySlides" src="Logo_Mockup_jpg.jpg" >
         </div>
 
        </section>
